@@ -1,10 +1,11 @@
-
 <div class="container">
-  <div class="row justify-content-center">
-    <div class="col-12 col-lg-6">
-      <% @cells.each do |cell| %>
-      <h1> <%= cell.abs %></h1>
-      <% end  %>
+  <div class="row">
+    <div class="d-flex">
+      <div class="col-6">
+        <% @cells.each do |cell| %>
+          <div class="d-inline p-2 bg-primary text-white"><%= cell.abs %></div>
+        <% end  %>
+      </div>
     </div>
   </div>
 </div>
