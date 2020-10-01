@@ -3,7 +3,6 @@ class Cell < ApplicationRecord
 
   validates :abs, presence: true
   validates :ord, presence: true
-  validates :chosen, presence: true
 
 
 end
